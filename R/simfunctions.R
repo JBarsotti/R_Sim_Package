@@ -43,7 +43,6 @@ go_program <- function()
     
     for (file in filestocopy)
     {
-      print(file)
       file.copy(file, child)
     }
     
