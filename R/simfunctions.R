@@ -69,7 +69,8 @@ go_program <- function()
     write.table(master_header, "master.csv", append=FALSE, row.names=FALSE, col.names=FALSE, sep=",", dec=".", quote=FALSE)
     
     # Start the timer!
-    start.time <- Sys.time()
+    start.time <- system.time(log(1:1e5))[["elapsed"]]
+    # start.time <- Sys.time()
     
     # Call the R function that runs the simulation code
     run_sim(combinations, run_type)
@@ -86,7 +87,8 @@ go_program <- function()
     setwd(wd)
     
     # Calculate how long program took to run
-    end.time <- Sys.time()
+    end.time <- system.time(log(1:1e5))[["elapsed"]]
+    # end.time <- Sys.time()
     time.taken <- end.time - start.time
     sprintf("Runtime: %f", time.taken)
     
