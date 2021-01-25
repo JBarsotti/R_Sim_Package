@@ -223,12 +223,12 @@ run_sim <- function(combinations, run_type)
                                                         {
                                                           
                                                           # Write trace to "trace.CSV"  
-                                                          trace_vals <- c(aval, bnum, oval, vval, uval, eval, 
+                                                          trace_vals <- t(c(aval, bnum, oval, vval, uval, eval, 
                                                                           xval, sval, ival, yval, yyval,
                                                                           wval, tval, dval, pval, zval, 
                                                                           vcval, vsval, vtval, q1val, 
                                                                           q2val, qsval, qtval, gplval, 
-                                                                          mpcval, mptval)
+                                                                          mpcval, mptval))
                                                           
                                                           write.table(trace_vals, "trace.csv", append=TRUE, row.names=FALSE, col.names=FALSE, sep=",", dec=".", quote=FALSE)
                                                           
