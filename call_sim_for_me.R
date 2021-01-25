@@ -2,6 +2,15 @@
 # the sim.c code and then calls it.
 #------------------------------------------------------------------------------------------
 
+#'* I WOULD LIKE TO THANK MY BFFS STACKEXCHANGE AND STACKOVERFLOW. I CAN HONESTLY SAY *
+#'* I COULDN'T HAVE DONE IT WITHOUT YOU. XOXOXOXOXO *
+#'* --------------------------------------------------------------------------------------- *
+
+
+
+
+
+
 #'* TO LOGIN AND USE A MAXIMUM OF 56 SLOTS FOR MPI, RUN THE FOLLOWING COMMAND: *
 #'* qlogin -pe 56cpn 56 -q AML *
 #'
