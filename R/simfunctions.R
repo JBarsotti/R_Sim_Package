@@ -245,8 +245,12 @@ run_sim <- function(combinations, run_type)
                                                           
                                                           # Concatenate temporary files
                                                           processes <- numprocs - 1
-                                                          system(paste0("eval cat proces_{1..", processes, "} >>master.csv"))
-                                                          system(paste0("eval rm proces_{1..", processes, "}"))
+                                                          
+                                                          if (run_type == "parallel")
+                                                          {
+                                                              system(paste0("eval cat proces_{1..", processes, "} >>master.csv"))
+                                                              system(paste0("eval rm proces_{1..", processes, "}"))
+                                                          }
                                                           
                                                           # Track the progress of the code
                                                           counter <- counter+1
