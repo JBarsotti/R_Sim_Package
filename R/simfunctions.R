@@ -143,7 +143,7 @@ run_sim <- function(combinations, run_type)
   {
     
     print("Running in serial.")
-    run_start <- paste0("nohup parent", sim)
+    run_start <- paste("nohup ", parent, "sim", sep="")
     run_end   <- paste0(" 2>> error | tail -n +2 >> master.csv")
     
     
