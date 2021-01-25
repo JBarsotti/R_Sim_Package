@@ -1,0 +1,24 @@
+{
+    "id": "9F80AB10",
+    "path": "D:/Wholehouse_Simulations/R_Sim_Package/R/simfunctions.R",
+    "project_path": "R/simfunctions.R",
+    "type": "r_source",
+    "hash": "3369027570",
+    "contents": "",
+    "dirty": false,
+    "created": 1611537649996.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "cursorPosition": "0,62",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1611538240,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1611538239162,
+    "read_only": false,
+    "read_only_alternatives": []
+}

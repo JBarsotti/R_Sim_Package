@@ -1,0 +1,5 @@
+Package: simfunctions
+Type: Package
+Title: R Functions for Using Alberto's Simulator
+Version: 0.0.1.0
+RoxygenNote: 7.1.1
