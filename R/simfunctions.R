@@ -89,7 +89,7 @@ go_program <- function()
     end.time <- Sys.time()
     time.taken <- paste0(round(as.numeric(difftime(time1 = end.time, time2 = start.time, units = "secs")), 3), " Seconds")
     #time.taken <- end.time - start.time
-    sprintf("Runtime: %f", time.taken)
+    sprintf("Runtime: %s", time.taken)
     
   } else {
     sprintf("WARNING: File master.csv already exists.")
